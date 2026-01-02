@@ -32,7 +32,8 @@
                     "category": "development",
                     "author": "caggodri",
                     "version": "1.0.0",
-                    "gistId": "https://gist.github.com/godrix/f5d70d53cfe9e084f095ccfa48deeac4"
+                    "gistId": "https://gist.github.com/godrix/f5d70d53cfe9e084f095ccfa48deeac4",
+                    "featured": true
                 }
             ]
         }
