@@ -1,0 +1,40 @@
+{
+    "version": "1.0.0",
+    "lastUpdated": "2026-01-01T00:00:00Z",
+    "recommendations": [
+        {
+            "id": "api-development-tools",
+            "name": "API Development Tools",
+            "description": "Tools for API development and testing",
+            "context": {
+                "hasFolder": [
+                    ".git"
+                ],
+                "files": [
+                    "package.json",
+                    "requirements.txt",
+                    "pom.xml"
+                ]
+            },
+            "items": [
+                {
+                    "id": "generate-http-files",
+                    "name": "Generate HTTP Files from Endpoints",
+                    "description": "Analyze project to find API endpoints and generate HTTP request files for each",
+                    "type": "command",
+                    "tags": [
+                        "api",
+                        "http",
+                        "testing",
+                        "automation",
+                        "endpoints"
+                    ],
+                    "category": "development",
+                    "author": "caggodri",
+                    "version": "1.0.0",
+                    "gistId": "https://gist.github.com/godrix/f5d70d53cfe9e084f095ccfa48deeac4"
+                }
+            ]
+        }
+    ]
+}
