@@ -1,6 +1,6 @@
 {
-    "version": "1.0.0",
-    "lastUpdated": "2026-01-01T00:00:00Z",
+    "version": "1.1.0",
+    "lastUpdated": "2026-01-04T16:48:00Z",
     "recommendations": [
         {
             "id": "api-development-tools",
@@ -33,6 +33,98 @@
                     "author": "godrix",
                     "version": "1.0.0",
                     "gistId": "https://gist.github.com/godrix/3465f034d0cd2e9d3f3dcafacd424e32"
+                }
+            ]
+        },
+        {
+            "id": "code-analysis-tools",
+            "name": "Code Analysis Tools",
+            "description": "Tools for analyzing and documenting codebase",
+            "context": {
+                "hasFolder": [
+                    ".git"
+                ],
+                "files": [
+                    "package.json",
+                    "requirements.txt",
+                    "pom.xml",
+                    "go.mod",
+                    "Cargo.toml"
+                ]
+            },
+            "items": [
+                {
+                    "id": "analyze-codebase",
+                    "name": "Analyze Codebase",
+                    "description": "Generate comprehensive analysis and documentation of entire codebase",
+                    "type": "command",
+                    "tags": [
+                        "analysis",
+                        "documentation",
+                        "codebase",
+                        "overview"
+                    ],
+                    "category": "development",
+                    "author": "godrix",
+                    "version": "1.0.0",
+                    "gistId": "https://gist.github.com/godrix/a4411ede195916964237e7343830327a"
+                }
+            ]
+        },
+        {
+            "id": "code-quality-tools",
+            "name": "Code Quality Tools",
+            "description": "Tools for code review and quality assessment",
+            "context": {
+                "hasFolder": [
+                    ".git"
+                ]
+            },
+            "items": [
+                {
+                    "id": "code-review",
+                    "name": "Comprehensive Code Review",
+                    "description": "Perform a comprehensive code review of recent changes focusing on quality, security, performance, testing and documentation",
+                    "type": "command",
+                    "tags": [
+                        "codereview",
+                        "quality",
+                        "security",
+                        "performance",
+                        "testing"
+                    ],
+                    "category": "quality",
+                    "author": "godrix",
+                    "version": "1.0.0",
+                    "gistId": "https://gist.github.com/godrix/445711d2ced9b1a2f61fb5dc520c912e"
+                }
+            ]
+        },
+        {
+            "id": "debugging-tools",
+            "name": "Debugging Tools",
+            "description": "Systematic debugging assistant with troubleshooting steps",
+            "context": {
+                "hasFolder": [
+                    ".git"
+                ]
+            },
+            "items": [
+                {
+                    "id": "debugging",
+                    "name": "Bug Detective",
+                    "description": "Systematic debugging assistant that helps identify and resolve issues using structured analysis framework",
+                    "type": "command",
+                    "tags": [
+                        "debugging",
+                        "troubleshooting",
+                        "bug-fix",
+                        "investigation"
+                    ],
+                    "category": "debugging",
+                    "author": "godrix",
+                    "version": "1.0.0",
+                    "gistId": "https://gist.github.com/godrix/b1467225554d0cd45c03484ee1d24669"
                 }
             ]
         }
