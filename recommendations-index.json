@@ -1,6 +1,6 @@
 {
-    "version": "1.1.0",
-    "lastUpdated": "2026-01-04T16:48:00Z",
+    "version": "1.2.0",
+    "lastUpdated": "2026-01-04T16:52:00Z",
     "recommendations": [
         {
             "id": "api-development-tools",
@@ -125,6 +125,40 @@
                     "author": "godrix",
                     "version": "1.0.0",
                     "gistId": "https://gist.github.com/godrix/b1467225554d0cd45c03484ee1d24669"
+                }
+            ]
+        },
+        {
+            "id": "spring-boot-tools",
+            "name": "Spring Boot Tools",
+            "description": "Specialized tools and prompts for Spring Boot development",
+            "context": {
+                "hasFolder": [
+                    ".git"
+                ],
+                "files": [
+                    "pom.xml",
+                    "build.gradle"
+                ]
+            },
+            "items": [
+                {
+                    "id": "add-version-header-springboot",
+                    "name": "Add API Version Header Filter",
+                    "description": "Implement a HTTP filter to automatically add 'x-Api-Version' header in all Spring Boot API responses using BuildProperties",
+                    "type": "prompt",
+                    "tags": [
+                        "spring-boot",
+                        "api",
+                        "versioning",
+                        "filter",
+                        "http",
+                        "maven"
+                    ],
+                    "category": "development",
+                    "author": "godrix",
+                    "version": "1.0.0",
+                    "gistId": "https://gist.github.com/godrix/f5cb630f9b1933b9d99e957192d80689"
                 }
             ]
         }
